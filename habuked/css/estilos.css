@@ -1,0 +1,64 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-link{
+    font-family: Nova Mono, monospace;
+}
+
+.navbar-brand
+{
+    margin:0;
+    padding:0;
+}
+  /* Logo cuadrado responsive */
+.logo 
+{
+    background-color: #0D3B66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    aspect-ratio: 1 / 1; /* Mantener cuadrado */
+    width: 60px;          /* tamaño base para escritorio */
+    font-size: 2rem;
+}
+
+.hado{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15rem;
+    font-weight: 900;
+    color:#2C2C2C;
+    }
+
+  /* Escala del logo en pantallas pequeñas */
+@media (max-width: 768px) 
+{
+    .logo 
+    {
+      width: 50px;
+      font-size: 1.5rem;
+    }
+  }
+
+@media (max-width: 480px) 
+{
+    .logo 
+    {
+      width: 40px;
+      font-size: 1.2rem;
+    }
+  }
