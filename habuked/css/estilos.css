@@ -2,9 +2,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+
 body{
-    font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     background-color: #bcbcfa47 !important;
 }
+
+a
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.cv
+{
+  color: #ff0000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: Nova Mono, monospace;
+  text-decoration: none;
+}
+
+.cv:hover
+{
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: Nova Mono, monospace;
+
+}
+
+.bg-color
+{
+  background-color: #ECECFE !important;
+}
+
+
+.redes-sociales svg {
+  width: 20px;
+  height: 20px;
+  max-width: 100%;
+  height: auto;
+  color:#0D3B66;  
+}
+
+.redes-sociales svg:hover {
+  color:red;
+  border:black
+}
+
+
+.btn-outline-primary 
+{
+  color: #575757 !important;
+  border-color: #575757  !important;
+  font-weight: 600 !important;
+
+  
+}
+
+.btn:hover
+{
+  background-color: #0D3B66 !important;
+  color: white !important;
+}
+
+
+.text-justify {
+  text-align: justify;
+}
+
+
+
+
 .container-fluid
 {
     margin: 0;
@@ -39,12 +108,28 @@ body{
 
 .hado{
     font-family: 'Roboto', sans-serif;
-    font-size: 15rem;
+    
+    font-size: clamp(5rem, 15vw + 1rem, 20rem);
     font-weight: 900;
     color:#2C2C2C;
-    }
+ }
 
-  /* Escala del logo en pantallas pequeñas */
+ .ken{
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: clamp(3rem, 7vw + 1rem, 7rem);
+    font-weight: 900;
+    color:#2C2C2C;
+ }
+
+.subhado{
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.5rem, 1vw + 1rem, 3rem);
+    font-weight: 700;
+    color:#2C2C2C;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) 
 {
     .logo 
@@ -62,3 +147,24 @@ body{
       font-size: 1.2rem;
     }
   }
+
+
+.bg-aboutme
+{
+  background-color: #FFC947;
+}
+
+.bg-mywork
+{
+  background-color: #7AE582;
+}
+
+.bg-proyectos
+{
+  background-color: #fa7c63;
+}
+
+.bg-contactame
+{
+  background-color: #F5F5F5;
+}
