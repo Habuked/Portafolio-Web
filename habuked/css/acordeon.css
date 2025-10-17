@@ -1,0 +1,62 @@
+.acordeon {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.acordeon-titulo {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECECFE   ;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.acordeon-titulo:hover {
+    background-color:#2C2C2C;
+    color: white;
+}
+
+.acordeon-contenido {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.2s ease-out; 
+}
+
+.acordeon-contenido p
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.acordeon-titulo:first-of-type {
+    border-top: 1px solid #ccc;
+}
+
+
+.acordeon-contenido ul {
+    list-style-type: square; 
+    padding: 0;           
+    margin: 1rem;            
+}
+
+
+.acordeon-contenido li {
+    margin-bottom: 20px; 
+}
+
+.acordeon-contenido li li {
+    list-style-type: none;
+}

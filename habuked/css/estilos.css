@@ -14,6 +14,10 @@ a
   font-family: 'Roboto', sans-serif;
 }
 
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
 .cv
 {
   color: #ff0000;
@@ -23,6 +27,16 @@ a
   text-decoration: none;
 }
 
+.cv2
+{
+  color: #9b158a;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: Nova Mono, monospace;
+  text-decoration: none;
+}
+
+
 .cv:hover
 {
   font-size: 1rem;
@@ -30,6 +44,15 @@ a
   font-family: Nova Mono, monospace;
 
 }
+
+.cv2:hover
+{
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: Nova Mono, monospace;
+
+}
+
 
 .bg-color
 {
@@ -72,14 +95,11 @@ a
 }
 
 
-
-
 .container-fluid
 {
     margin: 0;
     padding: 0;
 }
-
 
 
 .nav-link{
@@ -109,12 +129,12 @@ a
 .hado{
     font-family: 'Roboto', sans-serif;
     
-    font-size: clamp(5rem, 15vw + 1rem, 20rem);
+    font-size: clamp(4rem, 15vw + 1rem, 15rem);
     font-weight: 900;
     color:#2C2C2C;
  }
 
- .ken{
+.ken{
     font-family: 'Roboto', sans-serif;
     
     font-size: clamp(3rem, 7vw + 1rem, 7rem);
@@ -129,6 +149,16 @@ a
     color:#2C2C2C;
     margin-bottom: 1rem;
 }
+
+.conocer-un-poco-mas
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#2C2C2C;
+    
+}
+
 
 @media (max-width: 768px) 
 {
@@ -146,7 +176,7 @@ a
       width: 40px;
       font-size: 1.2rem;
     }
-  }
+}
 
 
 .bg-aboutme
@@ -167,4 +197,29 @@ a
 .bg-contactame
 {
   background-color: #F5F5F5;
+}
+
+/* Card estilos */
+.card-title
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2C2C2C;
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    color: #4F4F4F;
+}
+
+.btn-primary
+{
+    background-color: #0D3B66 !important; 
+    border-color: #0D3B66 !important;
+}
+
+.btn:hover
+{
+    background-color: #07509E !important; 
+    border-color: #07509E !important;
 }
