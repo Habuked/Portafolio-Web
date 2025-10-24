@@ -9,6 +9,7 @@
 <link href="css/reset.css" rel="stylesheet" crossorigin="anonymous">
 <link href="css/estilos.css" rel="stylesheet" crossorigin="anonymous">
 <link href="css/acordeon.css" rel="stylesheet" crossorigin="anonymous">
+<link href="css/form.css" rel="stylesheet" crossorigin="anonymous">
 
 
 <!-- BOOTSTRAP 5.3.8 CSS -->
@@ -108,7 +109,7 @@
 
     <!-- ACERCA DE MI -->
     <section class="container-fluid py-5 bg-aboutme"  id="acerca-de-mi">
-        <div class="container py-5">
+        <div class="container py-2">
             <h1 class="ken">Acerca de mi <span><i class="ken bi bi-emoji-smile-upside-down"></i></span></h1>
             <p class="mb-5 subhado">Soy desarrollador full-stack de Guayaquil, Ecuador.</p>
             
@@ -137,7 +138,7 @@
 
     <!-- MIS TRABAJOS -->
     <section class="container-fluid py-5 bg-mywork" id="mywork">
-        <div class="container py-5">
+        <div class="container py-2">
             <h1 class="ken">Mis Trabajos <span><i class="ken bi bi-suitcase-lg"></i></span></h1>
             
             <div class="acordeon">
@@ -198,7 +199,7 @@
 
     <!-- MIS PROYECTOS -->
     <section class="container-fluid py-5 bg-proyectos" id="proyectos">
-        <div class="container py-5">
+        <div class="container py-2">
             <h1 class="ken">Proyectos <span><i class="ken bi bi-cpu"></i></span></h1>
             
             <div class="py-5 card-group gap-3">
@@ -238,37 +239,55 @@
 
     <!-- CONTACTAME -->
     <section class="container-fluid py-5 bg-contactame" id="contactame">
-        <div class="container py-5">
+        <div class="container py-2">
             <h1 class="ken">Contáctame <span><i class="ken i bi-incognito"></i></span></h1>
-            
-            <div class="container mx-auto px-5 py-5">
-                <form>
+         
+            <div class="container mt-5">
+               <form action="">
                     <div class="row">
-                        <div class="col-md-6 pb-2 py-md-3">
-                            <input type="text" class="form-control" placeholder="Nombre: Ken">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-file-person"></i></span>
+                                <input type="text" class="form-control" placeholder="nombre" aria-label="nombre" aria-describedby="basic-addon1">
+                            </div>
                         </div>
-                        <div class="col-md-6 py-md-3">
-                            <input type="text" class="form-control" placeholder="Apellido: Masters">
-                        </div>
-                        <div class="my-3 my-md-0 mb-md-3">
-                           <textarea 
-                           class="form-control text-align-left" 
-                           id="exampleFormControlTextarea1" 
-                           rows="5"
-                           placeholder="Mensaje: Hola, me gustaría contactarte para..."
-                           ></textarea>
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-walking"></i></span>
+                                <input type="text" class="form-control" placeholder="apellido" aria-label="apellido" aria-describedby="basic-addon1">
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn w-100 btn-primary rounded-0">Enviar mensaje</button>
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-paper-heart"></i></span>
+                                    <input type="email" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-phone-vibrate"></i></span>
+                                    <input type="tel" class="form-control" placeholder="telefono" aria-label="telefono" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
                     </div>
-                </form>
+                    <div class="row">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Holis <i class="bi bi-person-raised-hand"></i></label>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <a href="#" class="btn btn-primary">Invítame un café <i class="bi bi-cup-hot"></i></a>
+                    </div>
+                    
+               </form>
             </div>
+
         </div>
     </section>
   
-  
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="scripts/acordeon.js"></script>
 </body>

@@ -137,7 +137,8 @@ p{
 .ken{
     font-family: 'Roboto', sans-serif;
     
-    font-size: clamp(3rem, 7vw + 1rem, 7rem);
+    /*font-size: clamp(2rem, 7vw + 1rem, 7rem);*/
+    font-size: 9vw;
     font-weight: 900;
     color:#2C2C2C;
  }
@@ -148,6 +149,16 @@ p{
     font-weight: 700;
     color:#2C2C2C;
     margin-bottom: 1rem;
+}
+.modal-title
+{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   color:#2C2C2C;
+}
+.modal-body
+{
+  font-family: 'Roboto', sans-serif;
 }
 
 .conocer-un-poco-mas
@@ -222,4 +233,9 @@ p{
 {
     background-color: #07509E !important; 
     border-color: #07509E !important;
+}
+
+.form-floating label
+{
+    padding: 1rem 2rem !important; 
 }
